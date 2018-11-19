@@ -1,0 +1,21 @@
+server:
+  port: 7003
+spring:
+  application:
+    name: eurekaCluster
+security:
+  basic:
+    enabled: true
+  user:
+    name: name
+    password: password
+eureka:
+  instance:
+    hostname: eurekaCluster
+  client:
+    #register-with-eureka: false # 表示是否注册自身到eureka服务器
+    #fetch-registry: false # 是否从eureka上获取注册信息
+    serviceUrl:
+      defaultZone: http://name:password@127.0.0.1:7002/eureka
+  server:
+    enable-self-preservation: false
