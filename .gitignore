@@ -1,0 +1,5 @@
+
+*.properties
+*.properties
+eurekaClient1/target/classes/META-INF/maven/com.pxl/eurekaClient1/pom.properties
+eurekaClient2/target/classes/META-INF/maven/com.pxl/eurekaClient2/pom.properties

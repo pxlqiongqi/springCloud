@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 7002
 spring:
   application:
     name: eurekaSingle
@@ -14,6 +14,6 @@ eureka:
     register-with-eureka: false # 表示是否注册自身到eureka服务器
     fetch-registry: false # 是否从eureka上获取注册信息
     serviceUrl:
-      defaultZone: http://name:password@127.0.0.1:7001/eureka
+      defaultZone: http://name:password@127.0.0.1:7002/eureka
   instance:
     hostname: eurekaSingle

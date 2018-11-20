@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://name:password@127.0.0.1:7001/eureka
+      defaultZone: http://name:password@127.0.0.1:7002/eureka
 logging:
   level:
     com.pxl.feign.FeignClient: DEBUG
