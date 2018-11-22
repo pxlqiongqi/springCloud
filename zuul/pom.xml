@@ -16,12 +16,16 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
+			<exclusions>
+		       <exclusion>
+		           <groupId>javax.servlet</groupId>
+		           <artifactId>servlet-api</artifactId>
+		       </exclusion>
+   			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zuul</artifactId>
 		</dependency>
 	</dependencies>
-
-
 </project>

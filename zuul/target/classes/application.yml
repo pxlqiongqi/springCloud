@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 10000
 spring:
   application:
     name: zuul
@@ -8,5 +8,9 @@ eureka:
     service-url:
       defaultZone: http://name:password@127.0.0.1:7002/eureka
 # 解决第一次请求报超时异常的方案：
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
-
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+zuul:
+  routes:
+    eurekaClient:
+      path: /pxl/** 
+      service-id: eurekaClient
