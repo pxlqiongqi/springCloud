@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class TestController {
-	@RequestMapping(value="/test",method=RequestMethod.POST)
+	@RequestMapping(value="/test")
 	@ResponseBody
 	public String getMessage() {
 		return "11111";
