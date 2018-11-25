@@ -1,0 +1,9 @@
+server:
+  port: 11000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://www.baidu.com
+            

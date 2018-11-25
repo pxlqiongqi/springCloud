@@ -3,7 +3,7 @@ Implementation-Title: eurekaSingle
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: Administrator
 Implementation-Vendor-Id: com.pxl
-Build-Jdk: 1.8.0_181
+Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/springcloud/
  eurekaSingle/
 Created-By: Maven Integration for Eclipse

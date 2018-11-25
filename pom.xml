@@ -9,6 +9,7 @@
 		<module>eurekaClient2</module>
 		<module>feign</module>
 		<module>zuul</module>
+		<module>config</module>
 	</modules>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.pxl</groupId>

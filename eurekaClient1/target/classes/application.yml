@@ -1,9 +1,14 @@
 server:
   port: 8001
+  context-path: /eurekaClient
 spring:
   application:
     name: eurekaClient
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 200MB
 eureka:
   client:
     service-url:
-      defaultZone: http://name:password@127.0.0.1:7002/eureka
+        defaultZone: http://name:password@127.0.0.1:7002/eureka
